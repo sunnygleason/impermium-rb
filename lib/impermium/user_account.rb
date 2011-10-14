@@ -8,12 +8,6 @@ module Impermium
     def initialize(user_id, enduser_ip)
       @user_id           = user_id
       @enduser_ip        = enduser_ip
-      @email_identity    = nil
-      @first_name        = nil
-      @last_name         = nil
-      @content           = nil
-      @facebook_identity = nil
-      @twitter_identity  = nil
     end
   
     def to_hash
