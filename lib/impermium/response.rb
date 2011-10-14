@@ -14,5 +14,4 @@ module Impermium
       @spam_classifier      = response_json["spam_classifier"]
     end
   end
-
 end
